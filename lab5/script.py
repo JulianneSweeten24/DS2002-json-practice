@@ -21,4 +21,4 @@ csv_filename = "chacon.csv"
 with open(csv_filename, mode='w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(["name", "html_url", "updated_at", "visibility"])
-        writer.writerows(ext_data[:5]) 
+        writer.writerows(ext_data[:5])
