@@ -21,4 +21,3 @@ else
 fi
 
 echo "Mostly cloudy: $mostly_cloudy"
-
